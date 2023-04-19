@@ -1,0 +1,31 @@
+{
+  "name": "axe-tools",
+  "version": "1.0.0",
+  "description": "Tools for accessibility testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGidman/Axe-Tools.git"
+  },
+  "author": "Alex Gidman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGidman/Axe-Tools/issues"
+  },
+  "homepage": "https://github.com/AlexGidman/Axe-Tools#readme",
+  "dependencies": {
+    "@mozilla/readability": "^0.4.4",
+    "@types/jsdom": "^21.1.1",
+    "jsdom": "^21.1.1",
+    "pronouncing": "github:aparrish/pronouncingjs",
+    "puppeteer": "^19.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
