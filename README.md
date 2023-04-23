@@ -1,5 +1,11 @@
 # Axe-Tools
 
+A work-in-progress accessibility tool for analysing the accessibility of websites programmatically via CLI or as part of a javascript testing framework.
+
+Features present:
+
+- CLI for readability
+
 ## Command Line Program - Installation & Use
 
 1. Once you have cloned the repository, ensure you have node installed and then run
